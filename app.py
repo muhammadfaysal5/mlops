@@ -12,7 +12,5 @@ def predict(prompt):
 
 
 # create an interface for the model
-with gr.Blocks() as demo:
-    textbox = gr.Textbox(placeholder="Enter the text to summurize ",lines=4)
-    gr.Interface(fn=predict, inputs="textbox", outputs="text")
-demo.launch()
+with gr.Interface(predict, "textbox", "text") as interface:
+    interface.launch()
