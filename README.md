@@ -1,5 +1,5 @@
 ---
-title: MLops
+title: demo
 emoji: 🚀
 colorFrom: purple
 colorTo: purple
