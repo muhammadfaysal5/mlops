@@ -1,6 +1,6 @@
 ---
 title: MLops
-emoji: 🌖
+emoji: 🚀
 colorFrom: purple
 colorTo: purple
 sdk: gradio
